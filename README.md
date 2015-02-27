@@ -43,6 +43,12 @@ as of version 0.10.0 Reactable will only continue to support React
 bower install [--save] reactable
 ```
 
+**Using npm:**
+
+```
+npm install [--save] reactable
+```
+
 Or, you can just download the raw file
 [here](https://github.com/glittershark/reactable/raw/master/build/reactable.js).
 
@@ -271,7 +277,7 @@ Example:
 ]} filterable={['State', 'Tag']} />
 ```
 
-There is also a `filterBy()` function on the component itself which takes a 
+There is also a `filterBy()` function on the component itself which takes a
 single string and applies that as the filtered value. It can be used like so:
 
 ```jsx
